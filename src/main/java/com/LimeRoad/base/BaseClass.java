@@ -30,6 +30,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		
 
 		public WebDriver getDriver(String browser) {
+			System.out.println("qwere");
 			if (browser.equalsIgnoreCase("chrome")) {
 				driver = WebDriverManager.chromedriver().create();
 			//	driver = new ChromeDriver();
